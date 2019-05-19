@@ -10,6 +10,9 @@ $ docker-compose up -d
 $ open http://0.0.0.0:8888/uranus
 ```
 
+## Sources
+https://github.com/resotto/uranus-sources
+
 ## License
 GPL
 
