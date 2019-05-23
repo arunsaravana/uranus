@@ -1,7 +1,7 @@
 <h1 align="center">uranus</h1>
 
 <p align="center">
-  <a href="https://twitter.com/home?status=Hierarchical%20Memo%20$and%20Task%20App%20by%20%40_resotto_%20https://github.com/resotto/uranus"><img src="https://img.shields.io/badge/twitter-tweet-blue.svg"/></a>
+  <a href="https://twitter.com/home?status=Hierarchical%20Memo%20and%20Task%20App%20by%20%40_resotto_%20https://github.com/resotto/uranus"><img src="https://img.shields.io/badge/twitter-tweet-blue.svg"/></a>
   <a href="https://twitter.com/_resotto_"><img src="https://img.shields.io/badge/feedback-@_resotto_-blue.svg" /></a>
   <a href="https://github.com/resotto/uranus/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-GPL%20v3.0-brightgreen.svg" /></a>
 </p>
