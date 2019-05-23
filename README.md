@@ -7,10 +7,6 @@
 </p>
 
 <p align="center">
-  Abstract1 (either Abstract2 or this)
-</p>
-
-<p align="center">
   <img src="https://raw.github.com/wiki/resotto/uranus/gif/uranus_memo.mov.gif">
   <img src="https://raw.github.com/wiki/resotto/uranus/gif/uranus_task.mov.gif">
 </p>
