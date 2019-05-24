@@ -36,9 +36,22 @@ open http://0.0.0.0:8888/uranus
 - Clear all items
 - Check item, and strike through it asynchronously (Task only)
 
-## Source Code
+## Developing
+If you want to build Uranus from source code, please install Maven in advance.  
+First, uncomment build tag in docker-compose.yml and remove images.
 ```
-git clone https://github.com/resotto/uranus-sources
+docker rmi resotto/tomcat:1.0
+docker rmi resotto/postgres:1.0
+```
+Second, build Uranus with Maven.
+```
+cd ap
+mvn package
+```
+Now, you just run containers.
+```
+docker-compose up -d
+open http://0.0.0.0:8888/uranus
 ```
 
 ## Feedback

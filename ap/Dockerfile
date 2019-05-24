@@ -19,6 +19,7 @@ ENV CATALINA_HOME /opt/apache-tomcat/apache-tomcat-9.0.19
 
 # Deploy
 WORKDIR /opt/apache-tomcat/apache-tomcat-9.0.19/webapps
-COPY uranus.war .
+COPY target/uranus-*.war .
+RUN mv uranus-*.war uranus.war
 
 CMD $CATALINA_HOME/bin/startup.sh && /bin/bash
