@@ -7,14 +7,14 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.github.com/wiki/resotto/uranus/gif/uranus_memo.mov.gif">
-  <img src="https://raw.github.com/wiki/resotto/uranus/gif/uranus_task.mov.gif">
+  <img src="https://raw.github.com/wiki/resotto/uranus/gif/Memo.gif">
+  <img src="https://raw.github.com/wiki/resotto/uranus/gif/Task.gif">
 </p>
 
 ---
 
-Uranus is a hierarchical Memo & Task app. In order to use Uranus, please install Docker in advance.  
-If having more time, I would try to implement json/yaml file export feature.  
+Uranus is a hierarchical Memo & Task app.  
+In order to use Uranus, please install Docker in advance.  
 
 ---
 
