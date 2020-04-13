@@ -4,11 +4,11 @@ services:
 # When building from source code, uncomment following build
 # and remove local image. e.g.) docker rmi resotto/tomcat:1.0
 #    build: ap/
-    image: resotto/tomcat:1.0
+    image: uranus-web
     container_name: tomcat
     tty: true
     ports:
-     - "8888:8080"
+     - "80:8080"
     networks:
       app_net:
         ipv4_address: 172.16.1.3
@@ -17,7 +17,7 @@ services:
 # When building from source code, uncomment following build
 # and remove local image. e.g.) docker rmi resotto/postgres:1.0
 #    build: db/
-    image: resotto/postgres:1.0
+    image: uranus-db
     container_name: postgres
     tty: true
     networks:

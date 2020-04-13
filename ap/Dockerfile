@@ -9,8 +9,9 @@ RUN yum update -y \
 
 # Tomcat
 WORKDIR /opt/apache-tomcat
-RUN curl -O https://www-us.apache.org/dist/tomcat/tomcat-9/v9.0.19/bin/apache-tomcat-9.0.19.tar.gz \
- && tar xzf apache-tomcat-9.0.19.tar.gz \
+#RUN curl -O https://www-us.apache.org/dist/tomcat/tomcat-9/v9.0.19/bin/apache-tomcat-9.0.19.tar.gz \
+RUN curl -O https://archive.apache.org/dist/tomcat/tomcat-9/v9.0.19/bin/apache-tomcat-9.0.19.tar.gz \
+ && tar -xvzf apache-tomcat-9.0.19.tar.gz \
  && useradd -s /sbin/nologin tomcat \
  && chown -R tomcat:tomcat /opt/apache-tomcat \
  && echo "export JAVA_HOME=$(dirname $(readlink $(readlink $(which java))) | sed -e 's#/bin.*##')" >> ~/.bash_profile \

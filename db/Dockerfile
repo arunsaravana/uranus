@@ -8,7 +8,8 @@ RUN yum update -y \
  && source ~/.bash_profile
 
 # PostgreSQL 9.6
-RUN yum install -y yum install https://download.postgresql.org/pub/repos/yum/9.6/redhat/rhel-6-x86_64/pgdg-centos96-9.6-3.noarch.rpm \
+#RUN yum install -y yum install https://download.postgresql.org/pub/repos/yum/9.6/redhat/rhel-6-x86_64/pgdg-centos96-9.6-3.noarch.rpm \
+RUN yum install -y https://download.postgresql.org/pub/repos/yum/9.6/redhat/rhel-6-x86_64/pgdg-redhat-repo-latest.noarch.rpm \
  && yum install -y postgresql96 \
  && yum install -y postgresql96-server \
  && service postgresql-9.6 initdb \
